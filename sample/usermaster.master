@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="usermaster.master.cs" Inherits="usermaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="Stylesheet" type="text/css" href="userstyle.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">
+            <div class="nav">
+                <ul>
+                    <li>
+                        <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="technical" 
+                            ForeColor="#702963" Text="USER PANEL"></asp:Label>
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="LinkButton9" runat="server" onclick="LinkButton9_Click" 
+                            onclientclick="medicinedonae.aspx" PostBackUrl="~/medicinedonae.aspx">DONATE</asp:LinkButton>
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="LinkButton8" runat="server" onclick="LinkButton8_Click1">MY DONATION</asp:LinkButton>
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="LinkButton3" runat="server" onclick="LinkButton3_Click">SEARCH DONATION</asp:LinkButton>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="right_nav">
+                <ul>
+                    <li>
+                        <asp:Label ID="Label1" runat="server" Font-Size="Medium"></asp:Label>
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="LinkButton7" runat="server" onclick="LinkButton7_Click">LOG OUT</asp:LinkButton>
+                    </li>
+                </ul>
+            </div>
+            </div>
+       
+    </div>
+    <div style="width:100%; height:951px; margin-top: 109px;">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+     
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+     
+    </asp:ContentPlaceHolder>
+    </div>
+    
+    </form>
+</body>
+</html>

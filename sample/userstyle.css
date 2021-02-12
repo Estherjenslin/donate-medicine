@@ -1,0 +1,156 @@
+﻿.page
+{
+background-color:#FFF;
+width:760px;
+margin:50px auto;
+}
+body 
+{
+    background-image:url("userback.jpg");
+    background-repeat:no-repeat;
+    background-size: 1920px 750px;
+    background-attachment:fixed;
+    font-family:"verdana";
+    margin:0px;
+}
+.header
+{
+width:100%;
+background-color:#FA8072;
+color:#FFF;
+font-size:24px;
+position:fixed;
+    top: 0px;
+    left: 0px;
+    height: 84px;
+}
+.nav
+{
+float:left;
+    width: 1078px;
+    height: 47px;
+    margin-top: 14px;
+}
+.nav ul
+{
+margin:0px;
+padding:0px;
+    height: 52px;
+    width: 1117px;
+}
+.nav ul li
+{
+display:inline-block;
+padding:15px 25px;
+}
+.nav ul li:hover
+{
+transition:0.5s ease-in-out;
+    
+background-color:#569;
+}
+.nav ul li a
+{
+color:#FFF;
+text-decoration:none;
+font-size:17px;
+}
+.right_nav
+{
+    float:right;
+    height: 77px;
+}
+.right_nav ul
+{
+margin:0px;
+padding:0px;
+}
+.right_nav ul li
+{
+display:inline-block;
+padding:15px 25px;
+}
+.right_nav ul li:hover
+{
+transition:0.5s ease-in-out;
+    
+background-color:#569;
+}
+.right_nav ul li a
+{
+color:#FFF;
+text-decoration:none;
+font-size:17px;
+}
+.box
+{
+    width:380px;
+    height:350px;
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+    float:left;
+}
+
+.msg
+{
+    backdrop-filter: blur(5px);
+    transform: translate(-5%, -5%);
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.5);
+    background-color:transparent;
+    width:95%;
+    height:500px;
+    margin-left:100px;
+    margin-right:10px;
+    margin-top: 42px;
+}
+
+.msg p
+{
+    padding-top:50px;
+    margin-left: 10%;
+    margin-right:10%;
+    text-align:justify;
+    color:#7F00FF;
+    font-size:17px;
+    height: 328px;
+    width: 678px;
+}
+.msg a
+{
+    margin-left: 10%;
+    margin-right:10%;
+    background-color:#8f8;
+    border:1px #2f2 solid;
+    padding:10px 15px;
+    border-radius:5px;
+    color:#000;
+    text-decoration:none;
+    font-size:17px;
+}
+.box
+{
+    width:1383px;
+    height:705px;
+    float:left;
+    margin-left:10px;
+    margin-right:0px;
+    float:left;
+}
+.borderless td, .borderless th {
+border: none;
+border-color: Red;
+}
+
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td {
+padding: 3px;
+}
+.table
+{
+    backdrop-filter: blur(5px);
+    transform: translate(-5%, -5%);
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.5);
+    background-color:transparent;
+}
+
+

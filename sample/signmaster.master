@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="signmaster.master.cs" Inherits="signmaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="Stylesheet" type="text/css" href="signmaster.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">
+            <div class="right_nav">
+                <ul>
+                    <li>
+                        <asp:LinkButton ID="LinkButton6" runat="server" onclick="LinkButton6_Click">REGISTER</asp:LinkButton>
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="LinkButton5" runat="server" onclick="LinkButton5_Click">SIGN IN</asp:LinkButton>
+                        <ul>
+                            <li><asp:LinkButton ID="LinkButton8" runat="server" onclick="LinkButton8_Click" >ADMIN</asp:LinkButton></li>
+                            <li><asp:LinkButton ID="LinkButton9" runat="server" onclick="LinkButton9_Click" >MEMBER</asp:LinkButton></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <asp:LinkButton ID="LinkButton4" runat="server" onclick="LinkButton4_Click" 
+                            PostBackUrl="~/home.aspx">HOME</asp:LinkButton>
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="LinkButton1" runat="server" onclientclick="home.aspx" 
+                            PostBackUrl="~/about.aspx" onclick="LinkButton1_Click">ABOUT</asp:LinkButton>
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="LinkButton3" runat="server" onclick="LinkButton3_Click">DONATE</asp:LinkButton>
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="LinkButton2" runat="server" onclientclick="CONTACT.aspx" 
+                            PostBackUrl="~/CONTACT.aspx" onclick="LinkButton2_Click">CONTACT</asp:LinkButton>
+                    </li>
+                    <li><a href="#">FEEDBACK</a></li>
+                </ul>
+            </div>
+            </div>
+       
+    </div>
+    <div style="width:100%; height:951px; margin-top: 109px;">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+     
+        <p>
+            <br />
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+     
+    </asp:ContentPlaceHolder>
+    </div>
+    
+    </form>
+</body>
+</html>
